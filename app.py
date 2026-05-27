@@ -68,9 +68,12 @@ COLORS = {
 # ── Load data ─────────────────────────────────────────────────
 @st.cache_data
 def load_all():
-    conn = sqlite3.connect(DB_PATH)
-    df   = pd.read_sql("SELECT * FROM customers", conn)
-    conn.close()
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        df   = pd.read_sql("SELECT * FROM customers", conn)
+        conn.close()
+    except:
+        df = pd.read_csv(DATA_FILE)
     with open(f"{OUTPUT_DIR}/ab_results.json") as f:
         ab_res = json.load(f)
     causal_res = {}
