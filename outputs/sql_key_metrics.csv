@@ -1,0 +1,4 @@
+segment,n_customers,visit_rate_pct,conversion_rate_pct,avg_spend_per_customer,total_revenue
+Mens E-Mail,21307,18.28,1.25,1.4226,30311.69
+Womens E-Mail,21387,15.14,0.88,1.0772,23038.11
+No E-Mail,21306,10.62,0.57,0.6528,13908.33

@@ -1,0 +1,8 @@
+{
+  "psm_lift_pp": 0.6805594668168592,
+  "psm_p_value": 1.6408644846707643e-13,
+  "psm_significant": true,
+  "avg_uplift_score": 0.006400300930122687,
+  "n_high_uplift": 338,
+  "n_total": 42613
+}

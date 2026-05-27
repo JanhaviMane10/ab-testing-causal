@@ -1,0 +1,21 @@
+{
+  "control_conversion_rate": 0.005726086548390125,
+  "treatment_conversion_rate": 0.01253109306800582,
+  "absolute_lift": 0.006805006519615695,
+  "relative_lift_pct": 118.84218762863279,
+  "ci_low": 0.004998966418366298,
+  "ci_high": 0.008611046620865093,
+  "z_statistic": 7.385114410925771,
+  "p_value": 1.5232235005955427e-13,
+  "significant": true,
+  "control_spend": 0.6527893551112361,
+  "treatment_spend": 1.422616511005773,
+  "spend_lift": 0.7698271558945368,
+  "p_value_spend": 1.1632008726058575e-07,
+  "net_roi": 14272.007210644893,
+  "roi_pct": 669.8271558945366,
+  "n_control": 21306,
+  "n_treatment": 21307,
+  "placebo_p_value": 0.5859279691594357,
+  "placebo_passed": true
+}

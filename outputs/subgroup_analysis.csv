@@ -1,0 +1,7 @@
+Subgroup,N Control,N Treatment,Lift (pp),P-value,Significant
+New Customers,10695,10686,0.74,0.0,✅
+Returning,10611,10621,0.621,0.0,✅
+Men's Shoppers,11787,11739,0.769,0.0,✅
+Women's Shoppers,11668,11749,0.745,0.0,✅
+Urban,8542,8563,0.664,0.0,✅
+Rural,3139,3243,0.528,0.0427,✅
